@@ -11,10 +11,10 @@ int main(void) {
 		std::fill_n(arr, k + 1, 1000000);//1000000보다 클 수 없음.
 		arr[n] = 0;
 
-		/*for (int j = 0; j < k + 1; ++j) {
+		for (int j = 0; j < k + 1; ++j) {
 			std::printf("%8d", j);
 		}
-		cout << endl;*/
+		cout << endl;
 		for (int i = n; i < k; ++i) {
 			if (arr[i - 1] > arr[i] + 1) {//i좌표에서 i-1좌표로 바로 걸어가는 것이 다른 방법보다 효율적인지 검사.(쭉 걸어오거나, 후퇴한 뒤 순간이동하는 것과 비교)
 				arr[i - 1] = arr[i] + 1;
@@ -32,10 +32,10 @@ int main(void) {
 					arr[i * 2] = arr[i] + 1;
 			}
 
-			/*for (int j = 0; j < k + 1; ++j) {
+			for (int j = 0; j < k + 1; ++j) {
 				std::printf("%8d", arr[j]);
 			}
-			cout << endl;*/
+			cout << endl;
 		}
 
 		cout << arr[k];//동생의 위치에 도달하기 위한 최소 횟수.
