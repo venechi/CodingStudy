@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kakao2020-블록이동하기", "Kakao2020-블록이동하기\Kakao2020-블록이동하기.vcxproj", "{73307669-DC82-4C4A-AF20-F3DA936CD931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73307669-DC82-4C4A-AF20-F3DA936CD931}.Debug|x64.ActiveCfg = Debug|x64
+		{73307669-DC82-4C4A-AF20-F3DA936CD931}.Debug|x64.Build.0 = Debug|x64
+		{73307669-DC82-4C4A-AF20-F3DA936CD931}.Debug|x86.ActiveCfg = Debug|Win32
+		{73307669-DC82-4C4A-AF20-F3DA936CD931}.Debug|x86.Build.0 = Debug|Win32
+		{73307669-DC82-4C4A-AF20-F3DA936CD931}.Release|x64.ActiveCfg = Release|x64
+		{73307669-DC82-4C4A-AF20-F3DA936CD931}.Release|x64.Build.0 = Release|x64
+		{73307669-DC82-4C4A-AF20-F3DA936CD931}.Release|x86.ActiveCfg = Release|Win32
+		{73307669-DC82-4C4A-AF20-F3DA936CD931}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC873A01-9EFC-4B50-9C23-6E10CE6D246E}
+	EndGlobalSection
+EndGlobal
